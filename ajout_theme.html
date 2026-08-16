@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <h1 class="form-title">Ajouter un thème</h1>
+
+    <!-- FORMULAIRE -->
+    <form method="post" action="ajouter_theme.php">
+      <label for="theme"> Nom du thème : </label>
+      <input
+        type="text"
+        id="theme"
+        name="theme"
+        maxlength="30"
+        size="30"
+        required
+      />
+      <br />
+      <label for="descriptif"> Descriptif du thème : <br /></label>
+      <textarea
+        id="descriptif"
+        name="descriptif"
+        rows="5"
+        cols="33"
+        placeholder="Entrez un bref descriptif d'un thème"
+        required
+      ></textarea>
+      <br /><br />
+      <input value="Envoyer" type="submit" />
+    </form>
+  </body>
+</html>

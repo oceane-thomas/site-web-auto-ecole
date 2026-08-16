@@ -1,0 +1,27 @@
+h1 {
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #666;
+  background: #f1c8a5;
+  color: rgb(5, 13, 90);
+}
+
+#maboite {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #666;
+  background: #f1c8a5;
+  margin: 10px;
+}
+
+/* Liens */
+a:link {
+  color: rgb(5, 13, 90);
+  text-decoration: none;
+}
+
+/* Liens visites */
+a:visited {
+  color: rgb(5, 13, 90);
+  text-decoration: none;
+}

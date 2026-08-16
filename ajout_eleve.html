@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <h1 class="form-title">Ajouter un élève</h1>
+
+    <!-- FORMULAIRE -->
+    <form method="post" action="ajouter_eleve.php">
+      <label for="nom">Nom</label>
+      <input
+        id="nom"
+        type="text"
+        name="nom"
+        maxlength="30"
+        size="30"
+        required
+      /><br />
+      <label for="prenom">Prénom</label>
+      <input
+        id="prenom"
+        type="text"
+        name="prenom"
+        maxlength="30"
+        size="30"
+        required
+      /><br />
+      <label for="date">Date de naissance</label>
+      <input 
+        id="date" 
+        type="date" 
+        name="date" 
+        required 
+      /><br />
+      <br />
+      <input 
+        value="Envoyer" 
+        type="submit" 
+      />
+    </form>
+  </body>
+</html>
